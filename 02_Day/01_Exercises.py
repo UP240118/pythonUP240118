@@ -1,4 +1,4 @@
-#Exerccices 02__Variables
+#Exercices 01__Variables
 Primer_Nombre = "Axel"
 Segundo_Nombre = "Yael"
 Apellidos = "Martínez Martínez"
