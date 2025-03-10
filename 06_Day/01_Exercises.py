@@ -1,17 +1,18 @@
 #1, 2, 3
 empty_tuple = ()
-Primos = "Corazon", "Aranza", "Denise", "Estrella"
-Hermana = "Laila"
-Hermano = "Pablo"
-show_family = Hermano + Hermana
-print (show_family)
+Primos = ["Corazon", "Aranza", "Denise", "Estrella"]
+Hermana = ["Laila"]
+Hermano = ["Pablo, "]
+Fa = Hermano + Hermana
+print (Fa)
 
 #4
 Pr = len(Primos)
-print (f"Yo Tengo {Pr} Primos")
+print ("Yo Tengo",Pr,"Primos")
 
 #5
-M = "Mayra"
-P = "Juan Carlos"
-F = (M, P) + show_family
-print (f"Mi Mama se llama {mom}, Mi Papa se llama {dad}, Mis primos son {show_family}")
+Ma = "Mayra"
+Pa = "Juan Carlos"
+f = Fa + Primos
+F = [Ma, Pa] + Fa
+print ("Mi Mama se llama -",Ma,",Mi Papa se llama -",Pa,"y Mis primos y Hermanos son",f)
